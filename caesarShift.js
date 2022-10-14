@@ -21,8 +21,8 @@ function caesarShift(shiftAmount, codeText) {
 
             if (ii < 0) {
                 ii += 26;
-            } else if (ii > 25) {
-                ii -= 25;
+            } else if (ii > 26) {
+                ii -= 26;
             }
 
             if (splitCode[x] == splitCode[x].toLowerCase()) {
