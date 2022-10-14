@@ -42,8 +42,6 @@ function caesarShift(shiftAmount, codeText) {
     return finalCode;
 }
 
-
-
 for(i = 1; i < 26; i++) {
     shift = i;
 
